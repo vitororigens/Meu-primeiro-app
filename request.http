@@ -1,0 +1,12 @@
+POST  http://localhost:5050/products
+Content-Type: application/json
+
+{
+    "name": "carderno brochurão",
+    "price": 17.00
+}
+
+### criando outra requisição
+
+
+GET http://localhost:5050/products
