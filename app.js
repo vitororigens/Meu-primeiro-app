@@ -1,6 +1,5 @@
 const express = require("express");
 const { randomUUID } = require("crypto");
-const { response } = require("express");
 const { request } = require("http");
 
 const app = express();
@@ -45,4 +44,13 @@ app.post("/products", (request, response) => {
 app.get("/products", (request, response) => {
     return response.json(products);
 });
+
+
+app.put("/products", (request, response) => {
+    return response.json(products);
+})
+
+
 app.listen(5050, () => console.log("Servidor está rodando"));
+
+

@@ -3,10 +3,15 @@ Content-Type: application/json
 
 {
     "name": "carderno brochurão",
-    "price": 17.00
+    "price": 18.00
 }
 
 ### criando outra requisição
 
 
 GET http://localhost:5050/products
+
+### alterando uma requisição existente
+
+
+PUT http://localhost:5050/products
